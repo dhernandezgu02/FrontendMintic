@@ -9,4 +9,4 @@ Desarrollo de una aplicaci√≥n web para el control y seguimiento de las ventas f√
 - Edward Arias. Ingeniero de Sistemas.
 - Daniel Fernando Hernandez, estudiante de desarrollo de software UNINPAHU- Sede en Bogota.
 - Cristian Baena.
-- 
+- Daniel Maya.
