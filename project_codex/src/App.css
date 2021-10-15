@@ -1,0 +1,9 @@
+.App{
+    background-image: url("http://www.solofondos.com/wp-content/uploads/2015/11/Imagen-de-fondo-html.jpg");
+    background-position: center center;	  
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+	width: auto;
+	height: 98vh;
+}
