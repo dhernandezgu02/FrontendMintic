@@ -1,29 +1,18 @@
 import React from "react";
 import "./App.css"
-import Login from "./views/login/Login";
-// import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
-// import Logged from "./views/Logged";
+import Login from "./views/login/Login"
+import Update from "./views/update_employee/Update.js";
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='App'>
-      <Login/>
-    </div>
-    // <Router>
-    //   <div className='App'>
-        
-    //     {/* A <Switch> looks through its children <Route>s and
-    //         renders the first one that matches the current URL. */}
-    //     <Switch>
-    //       <Route path="/login">
-    //         <Login />
-    //       </Route>
-    //       <Route path="/home">
-    //         <Logged/> 
-    //       </Route>
-    //     </Switch>
-    //   </div>
-    // </Router>
+    <Router>
+      <div className='App'>
+        <Route path="/" component="" />
+        <Route path="/Login" component={Login} />
+        <Route path="/Update" component={Update} />
+      </div>
+    </Router>
   );
 }
 

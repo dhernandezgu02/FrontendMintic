@@ -4,7 +4,7 @@ import Label from "./components/label/Label";
 import Input from "./components/input/Input";
 import './Login.css';
 
-const Login = () =>{
+const Login = () => {
 
     const [user, setUser ] = useState('');
     const [password, setPassword] = useState('');
