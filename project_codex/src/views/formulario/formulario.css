@@ -1,0 +1,116 @@
+.div1{
+    text-align: center;
+}
+
+h1{
+    margin:0%;
+    padding: 5rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 4rem;
+
+}
+
+.lbl1{
+    padding: 2rem;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 1%;
+    
+    
+}
+
+.inp1{
+    border-radius: 5px;
+    height: 2rem;
+    margin-right: 5%;
+}
+
+.inp3{
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer; 
+    margin: 5%;
+    width: 15%;
+    
+    
+}
+
+.inp3:hover {background-color:white}
+
+.inp3:active {
+  background-color:white;
+  box-shadow: 0 5px grey;
+  transform: translateY(4px);
+}
+
+
+.inp2{
+    border-radius: 5px;
+    height: 2rem;
+    margin-right: 5%;
+}
+
+.inp4{
+    border-radius: 5px;
+    height: 2rem;
+    margin-left: 2.5%;
+}
+
+.inp5{
+    border-radius: 5px;
+    height: 2rem;
+   
+}
+
+.lbl2{
+    padding: 2rem;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 9%;
+}
+
+.lbl3{
+    padding: 2rem;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 9%;
+}
+
+.lbl4{
+    padding: 2rem;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 6%;
+}
+
+.lbl5{
+    padding: 2rem;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 5%;
+    
+}
+
+.boton{
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+    width: 12%;
+    
+}
+
+.boton {
+    background-color: white; 
+    color: black; 
+
+}
+
+.boton:hover {
+    background-color: steelblue;
+    color: white;
+
+}
