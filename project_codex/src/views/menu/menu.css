@@ -1,0 +1,20 @@
+.container {
+    place-items: center;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background: none;
+}
+
+.btn {
+    width: 12.5rem;
+    height: 2.3rem;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
