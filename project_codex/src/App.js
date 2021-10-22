@@ -3,7 +3,7 @@ import "./App.css"
 import Login from "./views/login/Login"
 import Update from "./views/update_employee/Update.js";
 import Menu from "./views/menu/Menu.js";
-import Formulario from './views/formulario/Formulario';
+import Ventas from './views/ventas/Ventas';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route path="/Login" component={Login} />
         <Route path="/Update" component={Update} />
         <Route path="/Menu" component={Menu} />
-        <Route path="/Formulario" component={Formulario} />
+        <Route path="/Ventas" component={Ventas} />
       </div>
     </Router>
   );

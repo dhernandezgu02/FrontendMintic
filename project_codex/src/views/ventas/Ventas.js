@@ -1,7 +1,9 @@
 import { useState } from "react";
-import "./formulario.css";
+import "./ventas.css";
 
-export function Formulario() {
+
+
+export function Ventas() {
     const [nombre, setNombre] = useState("");
     const [date, setDate] = useState("");
     const [number, setNumber] = useState("");
@@ -13,12 +15,15 @@ export function Formulario() {
     const handleSubmit = e => {
         e.target.reset();
         alert("EL REGISTRO SE HA COMPLETADO");
+    
     }
     return (
         <div className="div1">
+            
             <h1>REGISTRO DE VENTAS</h1> <br />
-            <button className="boton">AGREGAR VENTA</button>
-            <button className="boton">VER VENTAS</button> <br /> <br/> <br /> <br/> <br />
+            <button onClick={BTN_ACT} className="boton" id="agregVenta">AGREGAR VENTA</button>
+            <button  onClick={BTN_ACT} className="boton active" id="adminVenta">VER VENTAS</button> <br /> <br/> <br /> <br/> <br />
+            <div className="contAgreg" id="contAgregVent">
             <form onSubmit={handleSubmit}>
                 <label className="lbl1" htmlfor="nombre"> ID PRODUCTO:</label>
                 <input className="inp1" type="text" id="nombre" name="nombre" required value={nombre} onChange={(e) => setNombre(e.target.value)} /> 
@@ -39,9 +44,38 @@ export function Formulario() {
                 <input className="inp3" type="submit" value="AGREGAR VENTA" />
 
             </form>
+            </div>
+            <div className="contVer" id="contVerVent">
+                <h1>TABLA</h1>
+
+            </div>
+
+
         </div>
+
     );
 }
 
-export default Formulario;
+const BTN_ACT = () => {
+    const BTN_VER = document.getElementById('adminVenta');
+    const BTN_AGR = document.getElementById('agregVenta');
+    const CONT_AGR = document.getElementById('contAgregVent');
+    const CONT_VER = document.getElementById('contVerVent');
+    if (BTN_VER.classList.contains('active')) {
+        BTN_VER.classList.remove('active');
+        CONT_VER.style.display = "none";
+        BTN_AGR.classList.add('active');
+        CONT_AGR.style.display = "block"
+    } else if (BTN_AGR.classList.contains('active')) {
+        BTN_AGR.classList.remove('active');
+        CONT_AGR.style.display = "none";
+        BTN_VER.classList.add('active');
+        CONT_VER.style.display = "block"
+    }
+}
+
+
+
+
+export default Ventas;
 
