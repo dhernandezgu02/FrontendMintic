@@ -1,7 +1,7 @@
 import React from "react";
 import './Input.css';
 
-const Input = ({attribute, handleChange, param}) =>{
+const Input = ({attribute, handleChange, param,value}) =>{
     return(
         <div className='input-container'>
             <input id={attribute} 
@@ -10,6 +10,7 @@ const Input = ({attribute, handleChange, param}) =>{
             placeholder={attribute.placeholder} 
             type={attribute.type} 
             onChange={(e) => handleChange(e.target.name, e.target.value)} 
+            value={value}
             // size='30'
             // maxLength='25'
             />

@@ -1,126 +1,153 @@
-.div1{
-    text-align: center;
+.div1 {
+  text-align: center;
+  overflow: scroll;
+  height: 100vh;
 }
 
-h1{
-    margin:0%;
-    padding: 5rem;
-    text-align: center;
-    color: aliceblue;
-    font-size: 4rem;
-
+h1 {
+  margin: 0%;
+  padding: 5rem;
+  text-align: center;
+  color: aliceblue;
+  font-size: 4rem;
+  margin-top: 10px;
 }
 
-.lbl1{
-    padding: 2rem;
-    color: aliceblue;
-    font-size: 2rem;
-    margin-left: 1%;
-    
-    
+.lbl1 {
+  padding: 2rem;
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 1%;
 }
 
-.inp1{
-    border-radius: 5px;
-    height: 2rem;
-    margin-right: 5%;
+.fecha {
+  height: 2rem;
+  border-radius: 5px;
+  margin-right: 5%;
+  width: 150px;
 }
 
-.inp3{
-    border-radius: 8px;
-    font-size: 1.5rem;
-    cursor: pointer; 
-    margin: 5%;
-    width: 15%;
-    
-    
+.inp1 {
+  border-radius: 5px;
+  height: 2rem;
+  /* margin-right: 5%; */
 }
 
-.inp3:hover {background-color:white}
+.inp3 {
+  border-radius: 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  /* margin: 5%; */
+  width: 15%;
+}
+
+.inp3:hover {
+  background-color: rgb(77, 80, 255);
+}
 
 .inp3:active {
-  background-color:white;
+  background-color: white;
   box-shadow: 0 5px grey;
   transform: translateY(4px);
 }
 
-
-.inp2{
-    border-radius: 5px;
-    height: 2rem;
-    margin-right: 5%;
+.inp2 {
+  border-radius: 5px;
+  height: 2rem;
+  margin-right: 5%;
+  /* margin-top: -10px; */
 }
 
-.inp4{
-    border-radius: 5px;
-    height: 2rem;
-    margin-left: 2.5%;
+.inp4 {
+  border-radius: 5px;
+  height: 2rem;
 }
 
-.inp5{
-    border-radius: 5px;
-    height: 2rem;
-   
+.inp5 {
+  border-radius: 5px;
+  height: 2rem;
 }
 
-.lbl2{
-    padding: 2rem;
-    color: aliceblue;
-    font-size: 2rem;
-    margin-left: 9%;
+.lbl2 {
+  padding: 2rem;
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 9%;
+  border-radius: 5px;
+  height: 2rem;
+  /* display: block; */
 }
 
-.lbl3{
-    padding: 2rem;
-    color: aliceblue;
-    font-size: 2rem;
-    margin-left: 9%;
+.lbl3 {
+  padding: 2rem;
+  color: aliceblue;
+  font-size: 2rem;
+  /* margin-left: 9%; */
 }
 
-.lbl4{
-    padding: 2rem;
-    color: aliceblue;
-    font-size: 2rem;
-    margin-left: 6%;
+.lbl4 {
+  padding: 2rem;
+  color: aliceblue;
+  font-size: 2rem;
+  margin-left: 6%;
 }
 
-.lbl5{
-    padding: 2rem;
-    color: aliceblue;
-    font-size: 2rem;
-    margin-left: 5%;
-    
-}
-
-.boton{
-    margin-right: 10%;
-    margin-left: 10%;
-    border-radius: 30px;
-    font-size: 20px;
-    background-color: aliceblue;
-    cursor: pointer;
-    width: 15rem;
-    height: 3rem;
-    
+.lbl5 {
+  padding: 2rem;
+  color: aliceblue;
+  font-size: 2rem;
+  margin-left: 5%;
 }
 
 .boton {
-    background-color: white; 
-    color: black; 
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: aliceblue;
+  cursor: pointer;
+  width: 15rem;
+  height: 3rem;
+}
 
+.boton {
+  background-color: white;
+  color: black;
 }
 
 .boton:hover {
-    background-color: steelblue;
-    color: white;
-
+  background-color: steelblue;
+  color: white;
 }
 
 .active {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .contAgreg {
-    display: none;
+  display: none;
+}
+
+.contVer {
+  height: 400px;
+  width: 68%;
+  text-align: center;
+  align-items: left;
+  font-size: 1000px;
+  /* display: grid; */
+  justify-content: center;
+  /* justify-items: end; */
+  margin-left: 300px;
+  /* border: crimson; */
+}
+
+.form {
+  font-size: 50px;
+  /* height: 100000px; */
+}
+
+.a {
+  border-radius: 5px;
+  height: 2rem;
 }
