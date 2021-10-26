@@ -72,10 +72,9 @@ const Products = () => {
       <div className="data">
         {view === "table" && <DataGrid rows={rows} columns={columns} />}
       </div>
-
-      {view === "form" && (
-        <div>
-          <form className="products_form" onSubmit={handleSubmit}>
+      {/* {view === "form" && (
+        <div className="form-div">
+          <form className="products_form1" onSubmit={handleSubmit}>
             <label className="lbl1" htmlfor="nombre">
               {" "}
               Identificacion Producto:
@@ -130,7 +129,7 @@ const Products = () => {
             <br /> <br />
           </form>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

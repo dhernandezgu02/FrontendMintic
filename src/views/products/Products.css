@@ -8,19 +8,21 @@
   height: 200px;
   width: 50px;
 }
+
 .data {
   height: 400px;
   width: 68%;
   text-align: center;
   align-items: center;
-  font-size: 1000px;
-  /* display: grid; */
+  /* font-size: 1000px; */
+
   justify-content: center;
-  /* justify-items: end; */
+
   margin-left: 440px;
   border: crimson;
   margin-top: 150px;
 }
+
 .button {
   background-color: #eeeeee; /* Green */
   border: none;
@@ -49,7 +51,7 @@
   background-color: #37346e;
   border-radius: 15px;
   border: 4px double #000000;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-left: 600px;
   display: inline-block;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
@@ -72,4 +74,14 @@
   margin-left: 200px;
   display: inline-block;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.products_form1 {
+  width: 1000px;
+  margin-left: 250px;
+  align-items: center;
+  margin-block-end: 150px;
+}
+
+.daniel {
+  align-items: flex-end;
 }

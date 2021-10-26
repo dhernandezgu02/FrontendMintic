@@ -7,8 +7,8 @@ import { userActions } from "../../store/user-slice";
 import { useDispatch } from "react-redux";
 
 const Login = () => {
-  const [user, setUser] = useState("prueba1@hotmail.com");
-  const [password, setPassword] = useState("123456789");
+  const [user, setUser] = useState("");
+  const [password, setPassword] = useState("");
   const [passwordError, setPasswordError] = useState(false);
   const dispatch = useDispatch();
   function handleChange(name, value) {
@@ -92,6 +92,11 @@ const Login = () => {
           style={{ fontSize: 24 }}
         >
           Ingresar
+        </button>
+      </div>
+      <div className="button-submitainer">
+        <button className="button-" onClick="" style={{ fontSize: 24 }}>
+          <a href="register">Registrar</a>
         </button>
       </div>
     </div>
